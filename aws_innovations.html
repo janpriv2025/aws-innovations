@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innowacyjne usługi AWS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f9;
+            color: #333;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img.hero {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        section {
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #0d47a1;
+            margin-top: 0;
+        }
+        section ul {
+            padding-left: 20px;
+        }
+        section li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background: #0d47a1;
+            color: white;
+            padding: 20px;
+        }
+        footer h3 {
+            margin-top: 0;
+        }
+        footer ol {
+            padding-left: 20px;
+        }
+        footer li {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="2ca46b29-6e11-4488-9f8b-dc1aca3fe2c9.png" alt="Abstrakcyjna grafika chmury i AI" class="hero">
+        <div class="overlay">
+            <h1>Innowacyjne usługi AWS</h1>
+            <p>Przegląd najnowszych technologii chmurowych i generatywnej sztucznej inteligencji</p>
+        </div>
+    </header>
+    
+    <section>
+        <h2>Amazon Bedrock i modele Nova</h2>
+        <p>Amazon Bedrock to platforma dla generatywnej AI, która oferuje dostęp do wielu modeli od firm trzecich oraz własnych modeli Amazon. W ramach re:Invent 2024 zaprezentowano nową rodzinę modeli Nova, które potrafią rozumieć i generować tekst, obrazy oraz wideo【701293015928667†L101-L106】. Bedrock zyskał również szereg funkcji:</p>
+        <ul>
+            <li>Marketplace i biblioteka znanych modeli oraz gotowych funkcji AI【701293015928667†L141-L170】.</li>
+            <li>Zarządzanie promptami i bazami wiedzy, w tym destylacja modeli i automatyzacja danych【701293015928667†L141-L170】.</li>
+            <li>Wbudowane „agenty” i mechanizmy kontrolne (np. bezpieczne rozumowanie) zapobiegające halucynacjom【701293015928667†L141-L170】.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Trainium2 i Trainium3</h2>
+        <p>Amazon zaprezentował nowe układy przyspieszające uczenie głębokie. Trainium2 to instancje z 16 układami na serwerze, które można łączyć w macierz UltraServer z 64 chipami, umożliwiając skalowanie dla największych modeli【701293015928667†L110-L119】. Z kolei Trainium3, planowane na koniec 2025 roku, mają zapewnić czterokrotnie większą wydajność względem Trainium2【701293015928667†L130-L134】.</p>
+    </section>
+    
+    <section>
+        <h2>Następna generacja Amazon SageMaker</h2>
+        <p>Platforma SageMaker to zintegrowane środowisko do budowy i wdrażania modeli ML. W nowej wersji wprowadzono:</p>
+        <ul>
+            <li>HyperPod – elastyczną architekturę skalującą od kilku GPU do setek układów, pozwalającą skrócić czas treningu o 40%【701293015928667†L186-L189】.</li>
+            <li>Unified Studio, Catalog i Lakehouse z integracją Zero‑ETL, co umożliwia płynne połączenie danych, analityki i uczenia maszynowego w jednym miejscu【701293015928667†L191-L199】.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Amazon Aurora DSQL</h2>
+        <p>Nowa usługa Amazon Aurora DSQL to rozproszona baza danych zgodna z PostgreSQL. Oferuje wieloregionową dostępność na poziomie 99,999%, silną spójność, czterokrotnie szybszy odczyt i zapis oraz automatyczne skalowanie bez zarządzania infrastrukturą【701293015928667†L232-L243】.</p>
+    </section>
+    
+    <section>
+        <h2>AWS Fargate</h2>
+        <p>AWS Fargate to serwerlessowy silnik kontenerowy dla ECS/EKS. Umożliwia uruchamianie kontenerów bez zarządzania serwerami, wystarczy określić zasoby CPU, pamięć i sieć; AWS zajmie się provisioningiem, skalowaniem i bezpieczeństwem【942843657277980†L246-L262】. Integruje się z usługami takimi jak IAM, CloudWatch czy S3. Główne zalety Fargate to:</p>
+        <ul>
+            <li>Brak konieczności zarządzania infrastrukturą – prostota uruchomienia kontenerów【942843657277980†L276-L293】.</li>
+            <li>Wbudowane mechanizmy bezpieczeństwa i płatność za rzeczywiste użycie【942843657277980†L276-L293】.</li>
+            <li>Elastyczne skalowanie oraz możliwość integracji z innymi usługami AWS【942843657277980†L246-L262】.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>S3 Tables</h2>
+        <p>W nowości na re:Invent 2024 przedstawiono S3 Tables – nowy typ koszyka S3 z natywną obsługą formatu Apache Iceberg. Pozwala on na trzykrotnie szybsze zapytania oraz dziesięciokrotnie większe przepustowości niż samodzielnie zarządzane tabele, co upraszcza analitykę z użyciem Amazon Athena, Redshift czy EMR【608637123424205†L99-L105】.</p>
+    </section>
+    
+    <section>
+        <h2>Kategorie usług AWS</h2>
+        <p>Aby zrozumieć innowacje, warto wiedzieć, że Amazon Web Services udostępnia szeroki wachlarz usług chmurowych:</p>
+        <ul>
+            <li><strong>Obliczenia:</strong> EC2, Lambda, Fargate, przetwarzanie serverless i kontenery【576443373938446†L37-L52】.</li>
+            <li><strong>Przechowywanie:</strong> S3, EBS, Glacier – różne warianty magazynów danych【576443373938446†L37-L52】.</li>
+            <li><strong>Bazy danych:</strong> RDS, Aurora, DynamoDB【576443373938446†L37-L52】.</li>
+            <li><strong>Sztuczna inteligencja i ML:</strong> SageMaker, Comprehend, Polly【576443373938446†L37-L52】.</li>
+            <li><strong>Analityka:</strong> Redshift, Athena【576443373938446†L37-L52】.</li>
+            <li><strong>DevOps/Automatyzacja:</strong> CloudFormation, CodeDeploy, CodePipeline, Elastic Beanstalk【576443373938446†L37-L52】.</li>
+            <li><strong>IoT:</strong> AWS IoT Core【576443373938446†L37-L52】.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h3>Źródła</h3>
+        <ol>
+            <li>Amazon re:Invent 2024 – informacje o modelach Nova, Trainium, Bedrock i SageMaker【701293015928667†L101-L106】.</li>
+            <li>Informacje o Trainium2 i Trainium3【701293015928667†L110-L119】【701293015928667†L130-L134】.</li>
+            <li>Opis nowych funkcji platformy Bedrock i innowacji w generatywnej AI【701293015928667†L141-L170】.</li>
+            <li>Ulepszenia SageMaker oraz usługa Aurora DSQL【701293015928667†L186-L189】【701293015928667†L191-L199】【701293015928667†L232-L243】.</li>
+            <li>Opis kategorii usług AWS (Compute, Storage, Databases itd.)【576443373938446†L37-L52】.</li>
+            <li>Informacje o AWS Fargate【942843657277980†L246-L262】【942843657277980†L276-L293】.</li>
+            <li>Nowość S3 Tables z Apache Iceberg【608637123424205†L99-L105】.</li>
+        </ol>
+    </footer>
+</body>
+</html>
