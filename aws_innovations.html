@@ -6,10 +6,13 @@
     <title>Innowacyjne usługi AWS</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* Use a modern, legible font and generous line‑height */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: #f4f7f9;
+            /* Soft gradient background for subtle depth */
+            background: linear-gradient(to bottom, #fdfdfd, #eef2f7);
             color: #333;
         }
         header {
@@ -28,31 +31,45 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.4);
+            /* Slightly darker overlay improves contrast on the hero image */
+            background: rgba(0,0,0,0.5);
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 0;
         }
         header p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-top: 0.5rem;
         }
         section {
             margin: 40px auto;
-            max-width: 800px;
-            padding: 20px;
+            max-width: 900px;
+            padding: 30px;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            /* Smooth hover transition for interactive feel */
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Slight lift effect on hover */
+        section:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
         }
         section h2 {
-            color: #0d47a1;
+            /* Brighter accent colour for headings */
+            color: #007acc;
             margin-top: 0;
+            /* underline accent for better section separation */
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         section ul {
             padding-left: 20px;
@@ -61,12 +78,13 @@
             margin-bottom: 8px;
         }
         footer {
-            background: #0d47a1;
-            color: white;
+            background: #e6eef7;
+            color: #444;
             padding: 20px;
         }
         footer h3 {
             margin-top: 0;
+            color: #007acc;
         }
         footer ol {
             padding-left: 20px;
@@ -76,7 +94,7 @@
             font-size: 0.9rem;
         }
         a {
-            color: #0d47a1;
+            color: #007acc;
         }
     </style>
 </head>
